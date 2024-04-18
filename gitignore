@@ -1,0 +1,17 @@
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore Django migration files
+*/migrations/
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore local settings file
+vercel_app/local_settings.py
